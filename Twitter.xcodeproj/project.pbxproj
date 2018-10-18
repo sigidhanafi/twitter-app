@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7472BA6C0E6FCA09A26EB42E /* Pods_Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B7D93CC4BE0790D961483D /* Pods_Twitter.framework */; };
+		D81BF9D52178279B00D7EFA8 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BF9D42178279B00D7EFA8 /* Cells.swift */; };
+		D81BF9D7217827F000D7EFA8 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81BF9D6217827F000D7EFA8 /* HomeDatasource.swift */; };
 		D81C18F2207D252B00F3EBD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81C18F1207D252B00F3EBD6 /* AppDelegate.swift */; };
 		D81C18FA207D252B00F3EBD6 /* Twitter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D81C18F8207D252B00F3EBD6 /* Twitter.xcdatamodeld */; };
 		D81C18FC207D252B00F3EBD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81C18FB207D252B00F3EBD6 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* Begin PBXFileReference section */
 		192FAD16A4849681B4946B8F /* Pods-Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitter/Pods-Twitter.debug.xcconfig"; sourceTree = "<group>"; };
 		47B7D93CC4BE0790D961483D /* Pods_Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81BF9D42178279B00D7EFA8 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		D81BF9D6217827F000D7EFA8 /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		D81C18EE207D252B00F3EBD6 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81C18F1207D252B00F3EBD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D81C18F9207D252B00F3EBD6 /* Twitter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Twitter.xcdatamodel; sourceTree = "<group>"; };
@@ -80,15 +84,41 @@
 		D81C18F0207D252B00F3EBD6 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				D8DC89D4217749A300811FF9 /* View */,
+				D8DC89D5217749AC00811FF9 /* Model */,
+				D8DC89D32177499800811FF9 /* Controller */,
 				D81C18F1207D252B00F3EBD6 /* AppDelegate.swift */,
 				D81C1906207D25AB00F3EBD6 /* HomeController.swift */,
 				D81C18FB207D252B00F3EBD6 /* Assets.xcassets */,
 				D81C18FD207D252B00F3EBD6 /* LaunchScreen.storyboard */,
 				D81C1900207D252B00F3EBD6 /* Info.plist */,
 				D81C18F8207D252B00F3EBD6 /* Twitter.xcdatamodeld */,
-				D8740F372090E9F80007F4C7 /* HomeDatasourceController.swift */,
 			);
 			path = Twitter;
+			sourceTree = "<group>";
+		};
+		D8DC89D32177499800811FF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D8740F372090E9F80007F4C7 /* HomeDatasourceController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D8DC89D4217749A300811FF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D81BF9D42178279B00D7EFA8 /* Cells.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DC89D5217749AC00811FF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D81BF9D6217827F000D7EFA8 /* HomeDatasource.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +252,9 @@
 				D81C1907207D25AB00F3EBD6 /* HomeController.swift in Sources */,
 				D8740F382090E9F80007F4C7 /* HomeDatasourceController.swift in Sources */,
 				D81C18F2207D252B00F3EBD6 /* AppDelegate.swift in Sources */,
+				D81BF9D7217827F000D7EFA8 /* HomeDatasource.swift in Sources */,
 				D81C18FA207D252B00F3EBD6 /* Twitter.xcdatamodeld in Sources */,
+				D81BF9D52178279B00D7EFA8 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
