@@ -9,22 +9,22 @@
 /* Begin PBXBuildFile section */
 		0972E19CEE67561F89EF20C31F267069 /* DatasourceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB89876209CAE5BE36814C278F6746E5 /* DatasourceCell.swift */; };
 		2E083D9FBA1A9494DA1058C17E1DCA60 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A64410F301A6B1977968F3B8B512CAE /* DiscardableImageCacheItem.swift */; };
+		3425946098C6A60A838F59CE372B44EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		35082392A9A41FCD4EAA61BED1A16E86 /* NSMutableAttributedString+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504E31488E44C4D0B8FAA3CE627EF99A /* NSMutableAttributedString+Helper.swift */; };
 		37B98DD36F44A62004105310CD66858C /* DefaultCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB1FB475407EB266A2EFCCD3CB9748 /* DefaultCells.swift */; };
 		3931B2F6A6B8DAF241A7786B60E40F0A /* UIButton+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A96E58968095DAB6C1D24732E468B /* UIButton+Helper.swift */; };
 		5785495E154B3D97E534C5495F1D22C1 /* LBTALabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B647F1E05DA0A9F57925C7B6559C7E39 /* LBTALabel.swift */; };
 		6692D73281414F0BAAF65D68FDD23EB5 /* Pods-Twitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C46E51051E1CFD6A9DD86BE7D54A7AC /* Pods-Twitter-dummy.m */; };
-		790337E1285A700DFD10C9C05BEF0219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		7BB4D97A26767E1133EBA0B96766E51C /* LBTAComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2EA531BBB0B709E02437FA4174DFFB /* LBTAComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8328C8198F54329E00570F05BACC94ED /* Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71053109B0AEEEAEDE803E126EB263F0 /* Datasource.swift */; };
 		8DBB8E9521A8F540E337C4242DB8299A /* UIImage+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F2A98BBD0450E4BEF5BF425E7458A3 /* UIImage+Helper.swift */; };
 		A0B1B6264A657334BF9C3B429AEC65C9 /* LBTATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC978C2927F2768495183B59ED3064 /* LBTATextView.swift */; };
+		B9C1E962BF3F3744F14E5D77FC07E361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C15E4DD8E4D60E2EDE5C2442B3A4F73B /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBCF0FA246676BBF32B6F92D6AD92B5 /* CachedImageView.swift */; };
 		DEB5B523B4C10B7C832D5E3E970EDE64 /* DatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660CA70D519C568D1B6E3112C356D584 /* DatasourceController.swift */; };
 		E0F3F5B4149F462C15BDE35D2793ECF6 /* UIColor+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF29FEF89F8A0F791705400DEDF0D08 /* UIColor+Helper.swift */; };
 		E2F03FADC2821A9AE79BC89B92C53EA6 /* LBTAComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2B2B34D165D0F0E99F7CFF4454A9CD /* LBTAComponents-dummy.m */; };
 		E925F84F7677DA272303B23BA96321D3 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307B2AE793CED8B2ABC807D513488936 /* UIView+Anchors.swift */; };
-		F2A255EB305DEDAD9278D94162955D21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FA1D20F89E2B0A4CEBE3DC9D554DBD7D /* Pods-Twitter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E92AE1CE6B8C5CF135ADE5E0A0CECD /* Pods-Twitter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		4FBB1FB475407EB266A2EFCCD3CB9748 /* DefaultCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultCells.swift; path = LBTAComponents/Classes/DefaultCells.swift; sourceTree = "<group>"; };
 		504E31488E44C4D0B8FAA3CE627EF99A /* NSMutableAttributedString+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableAttributedString+Helper.swift"; path = "LBTAComponents/Classes/NSMutableAttributedString+Helper.swift"; sourceTree = "<group>"; };
 		59899CC58632FC809810D570DC78EAD7 /* Pods-Twitter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitter.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		660CA70D519C568D1B6E3112C356D584 /* DatasourceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatasourceController.swift; path = LBTAComponents/Classes/DatasourceController.swift; sourceTree = "<group>"; };
 		6AF29FEF89F8A0F791705400DEDF0D08 /* UIColor+Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helper.swift"; path = "LBTAComponents/Classes/UIColor+Helper.swift"; sourceTree = "<group>"; };
 		71053109B0AEEEAEDE803E126EB263F0 /* Datasource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Datasource.swift; path = LBTAComponents/Classes/Datasource.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A255EB305DEDAD9278D94162955D21 /* Foundation.framework in Frameworks */,
+				B9C1E962BF3F3744F14E5D77FC07E361 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790337E1285A700DFD10C9C05BEF0219 /* Foundation.framework in Frameworks */,
+				3425946098C6A60A838F59CE372B44EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +112,14 @@
 			path = "Target Support Files/Pods-Twitter";
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +134,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -168,14 +176,6 @@
 				BF933D78670189FB9B8F5245B9EF60BC /* LBTAComponents */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F62F7CF9915D24B73DB8E782EBC963C8 /* Targets Support Files */ = {
